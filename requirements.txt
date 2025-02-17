@@ -1,0 +1,12 @@
+streamlit>=1.24.0
+langchain-ollama>=0.0.1
+langchain-milvus>=0.0.1
+langchain-core>=0.1.6
+langchain-text-splitters>=0.0.1
+langchain-community>=0.0.10
+pymilvus>=2.3.3
+tqdm>=4.66.1
+pypandoc==1.15
+unstructured>=0.10.30  # Required for EPub processing
+python-magic>=0.4.27   # Required by unstructured
+#python-magic-bin>=0.4.14; sys_platform == 'win32'  # Required for Windows users
